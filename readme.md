@@ -1,6 +1,6 @@
 ### 生成bulma主题cli
 
-### 在dawn-theme 中重置样式
+#### 在dawn-theme 中重置样式
 
 ``` sass
 @charset "utf-8";
@@ -42,7 +42,7 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/section.sass";
 ```
 
-### 编译主题文件
+#### 编译主题文件
 
 ```bash  
     npm run build 
@@ -50,6 +50,6 @@ $input-shadow: none;
     yarn run build
 ```
 
-### 在 `dist/index.html` 中查看编译样式
+#### 在 `dist/index.html` 中查看编译样式
 
-### 在 `dist/css/dawn-theme` 中提取编译的样式文件
+#### 在 `dist/css/dawn-theme` 中提取编译的样式文件
